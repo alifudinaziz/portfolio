@@ -79,8 +79,10 @@ export default defineNuxtConfig({
   },
   image: {
     dir: 'assets/images',
+    provider: 'vercel',
     domains: [
-      'alifudinaziz.com'
+      'alifudinaziz.com',
+      'alifudinaziz.vercel.app'
     ]
   },
   icon: {
