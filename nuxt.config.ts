@@ -78,7 +78,10 @@ export default defineNuxtConfig({
     }
   },
   image: {
-    dir: 'assets/images'
+    dir: 'assets/images',
+    domains: [
+      'alifudinaziz.com'
+    ]
   },
   icon: {
     serverBundle: {
