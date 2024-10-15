@@ -3,7 +3,8 @@
     <AppHeader />
     <p class="ff-source-code-pro font-bold">Homepage</p>
     <p class="ff-poppins">{{ formatNumber(1234) }}</p>
-    <NuxtPicture format="webp" src="/vue.png" alt="Vue Logo" />
+    <NuxtImg height="40" width="40" format="webp" src="/vue.png" alt="Vue Logo" />
+    <img src="~/assets/images/vue.png" alt="Vue" />
     <Icon name="uil:github" />
     <nuxt-link to="/projects">Project</nuxt-link>
   </div>
