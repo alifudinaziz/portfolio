@@ -14,6 +14,8 @@ export default defineNuxtConfig({
     'nuxt-purgecss',
     'nuxt-delay-hydration',
     'nuxt-vuefire',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/icon',
   ],
 
   app: {
@@ -55,7 +57,6 @@ export default defineNuxtConfig({
       ],
     }
   },
-
   site: {
     url: process.env.BASE_SITE_URL,
     name: 'Alifudin Aziz'
@@ -74,6 +75,14 @@ export default defineNuxtConfig({
         ital: '200..700',
       },
       Poppins: true,
+    }
+  },
+  image: {
+    dir: 'assets/images'
+  },
+  icon: {
+    serverBundle: {
+      collections: ['uil', 'mdi']
     }
   },
 
