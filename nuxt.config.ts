@@ -56,6 +56,10 @@ export default defineNuxtConfig({
     }
   },
 
+  site: {
+    url: process.env.BASE_SITE_URL,
+    name: 'Alifudin Aziz'
+  },
 
   googleFonts: {
     display: 'swap',
