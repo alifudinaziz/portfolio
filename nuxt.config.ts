@@ -81,7 +81,6 @@ export default defineNuxtConfig({
     // local dev
     // dir: 'assets/images',
     // production
-    provider: 'vercel',
     domains: [
       'alifudinaziz.com',
       'alifudinaziz.vercel.app'
